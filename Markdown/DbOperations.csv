@@ -1,0 +1,7 @@
+Operation,Category,Name,Description,Requirements table
+products/getAll,Services,Get all products,Returns all products offered together with the specified services,"| Property | Type | IsMandatory | Description |
+| --- | --- | --- | --- |
+| `ClientToken` | string | required | Token identifying the client application. |
+| `AccessToken` | string | required | Access token of the client application. |
+| `Client` | string | required | Name and version of the client application. |
+| `ServiceIds` | array of string | required | Unique identifiers of the [Service](services.md#service)s. |"
